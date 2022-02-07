@@ -20,7 +20,7 @@
       </li>
 
       <li>
-        <router-link to="/">
+        <router-link to="/chat">
           <iconly name="chat" type="bulk"/>
           <span>
             Chat

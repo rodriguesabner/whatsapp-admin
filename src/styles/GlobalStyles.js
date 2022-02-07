@@ -7,6 +7,8 @@ export const Layout = styled.div`
   flex-direction: column;
   background: #1a1d21;
   overflow: auto;
+  padding-bottom: 3em;
+  color: #fff;
 `;
 
 export default injectGlobal`

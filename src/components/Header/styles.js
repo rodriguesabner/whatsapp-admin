@@ -33,6 +33,10 @@ export const LeftContainer = styled.div`
     margin-right: 1em;
     border-right: 1px solid rgba(0, 0, 0, .3);
     font-size: 16px;
+
+    ::placeholder{
+      color: #ccc;
+    }
   }
 
   svg {

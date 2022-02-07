@@ -7,19 +7,19 @@
     <container>
       <li>
         <p>
-          Mensagens enviadas:
+          Mensagens enviadas
         </p>
       </li>
 
       <li>
         <p>
-          Contatos Salvos:
+          Contatos Salvos
         </p>
       </li>
 
       <li>
         <p>
-          Instâncias ativas:
+          Instâncias ativas
         </p>
       </li>
     </container>

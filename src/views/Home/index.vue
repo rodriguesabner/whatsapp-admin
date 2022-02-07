@@ -2,12 +2,12 @@
   <layout>
     <container>
       <stats/>
+      <instances/>
 
       <wrapper-containers>
         <left-container>
         </left-container>
         <right-container>
-          <instances/>
         </right-container>
       </wrapper-containers>
     </container>
