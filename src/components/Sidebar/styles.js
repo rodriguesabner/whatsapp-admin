@@ -5,6 +5,11 @@ export const Layout = styled.aside`
   width: 320px;
   height: 100%;
   background: #212529;
+
+  @media screen and (max-width: 1024px) {
+    width: 100px;
+    height: 100%;
+  }
 `;
 
 export const WrapperMenu = styled.ul`
@@ -16,18 +21,42 @@ export const WrapperMenu = styled.ul`
   list-style: none;
   padding: 2em;
 
+  @media screen and (max-width: 1024px) {
+    padding: 0;
+
+    li {
+      a {
+        width: 100%;
+        justify-content: center;
+
+        svg {
+          height: 30px;
+          width: 100%;
+        }
+
+        span {
+          display: none;
+        }
+      }
+    }
+  }
+
   li {
     display: flex;
-    align-items: center;
     padding: 14px;
     border-radius: 4px;
     margin-bottom: 1em;
 
     a {
+      display: flex;
+      align-items: center;
       text-decoration: none;
       color: #999;
       font-weight: 600;
-      margin-left: 1em;
+
+      span {
+        margin-left: 1em;
+      }
     }
 
     svg {
