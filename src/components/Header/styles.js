@@ -59,6 +59,7 @@ export const RightContainer = styled.ul`
     justify-content: center;
     padding: 10px;
     margin-left: 1em;
+    cursor: pointer;
 
     svg {
       color: #333;
