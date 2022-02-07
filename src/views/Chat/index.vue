@@ -9,11 +9,10 @@
             :contact="contact"
             @click="selectContact(contact)"
           >
+            <img :src="contact.avatar"/>
             <p>
               {{ contact.name }}
             </p>
-            <contact-avatar :contact="contact"/>
-            <contact-name :contact="contact"/>
           </contact-item>
         </contacts-list>
       </contacts-container>
