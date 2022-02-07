@@ -17,7 +17,7 @@ export const Wrapper = styled.div`
 `;
 
 export const LeftContainer = styled.div`
-  background: #ededed;
+  background: #212529;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -50,7 +50,7 @@ export const RightContainer = styled.ul`
   list-style-type: none;
 
   li {
-    background: #fff;
+    background: #212529;
     border-radius: 50%;
     width: 45px;
     height: 45px;
@@ -62,7 +62,7 @@ export const RightContainer = styled.ul`
     cursor: pointer;
 
     svg {
-      color: #333;
+      color: #eee;
     }
   }
 `;

@@ -4,7 +4,7 @@ export const Layout = styled.aside`
   display: flex;
   width: 320px;
   height: 100%;
-  background: #fff;
+  background: #212529;
 `;
 
 export const WrapperMenu = styled.ul`
@@ -25,25 +25,25 @@ export const WrapperMenu = styled.ul`
 
     a {
       text-decoration: none;
-      color: #666;
+      color: #999;
       font-weight: 600;
       margin-left: 1em;
     }
 
     svg {
-      color: #666;
+      color: #999;
     }
   }
 
   li.active {
-    background: #e6ebfe;
+    background: rgba(51, 57, 63, 0.48);
 
     a {
-      color: #0f45ff;
+      color: #3e5dce;
     }
 
     svg {
-      color: #0f45ff;
+      color: #3e5dce;
     }
   }
 `;

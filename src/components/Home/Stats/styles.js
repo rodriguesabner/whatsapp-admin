@@ -20,28 +20,20 @@ export const Container = styled.ul`
     cursor: pointer;
     transition-duration: 300ms;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
-    background: #fff;
+    background: #212529;
 
     p {
-      color: #777;
+      color: #ddd;
     }
 
     h2 {
       margin-top: 10px;
+      color: #fff;
     }
 
     :hover {
       box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
       background: #0f44fd;
-
-      p {
-        color: #ddd;
-      }
-
-      h2 {
-        margin-top: 10px;
-        color: #fff;
-      }
     }
 
     :first-child {

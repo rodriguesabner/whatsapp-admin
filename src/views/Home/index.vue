@@ -1,9 +1,10 @@
 <template>
   <layout>
     <container>
+      <stats/>
+
       <wrapper-containers>
         <left-container>
-          <stats/>
         </left-container>
         <right-container>
           <instances/>
