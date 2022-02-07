@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home/index.vue';
 import Chat from '../views/Chat/index.vue';
+import Contacts from '../views/Contacts/index.vue';
 
 Vue.use(VueRouter);
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/chat',
     name: 'Chat',
     component: Chat,
+  },
+  {
+    path: '/contacts',
+    name: 'Contacts',
+    component: Contacts,
   },
   {
     path: '/about',

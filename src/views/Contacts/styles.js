@@ -7,48 +7,45 @@ export const Layout = styled.div`
 
 export const Container = styled.div`
   display: flex;
+  flex-direction: column;
   padding: 2em;
 `;
 
-export const ContactsContainer = styled.div`
-  width: 20%;
-`;
-
 export const ContactsList = styled.ul`
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
   padding: 0;
   margin: 0;
 `;
 
 export const ContactItem = styled.li`
+  background-color: #212529;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  padding: 10px;
+  justify-content: center;
+  min-width: 200px;
+  min-height: 100px;
+  padding: 1.5em 10px;
+  margin: 10px;
+  border-radius: 10px;
   cursor: pointer;
   transition-duration: 200ms;
-  border-radius: 10px;
-  margin-bottom: 10px;
 
   img {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-bottom: 1em;
   }
 
   p {
     font-size: 16px;
-    width: 250px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 
   :hover {
-    background-color: #000;
+    background-color: #16191c;
+    transform: scale(1.1);
   }
-`;
-
-export const ChatContainer = styled.div`
-  width: 80%;
 `;

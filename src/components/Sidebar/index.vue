@@ -11,7 +11,7 @@
       </li>
 
       <li>
-        <router-link to="/">
+        <router-link to="/contacts">
           <iconly name="profile" type="bulk"/>
           <span>
           Contacts
