@@ -1,13 +1,15 @@
-import BaseApi from '../../common/BaseApi';
+import BaseApi from '../../../common/BaseApi';
 import {
-  ContactItem, ContactsList, Container, Layout,
+  ChatContainer, ContactItem, ContactsContainer, ContactsList, Container, Layout,
 } from './styles';
 
 export default {
-  name: 'Contacts',
+  name: 'Chat',
   components: {
     Layout,
     Container,
+    ContactsContainer,
+    ChatContainer,
     ContactsList,
     ContactItem,
   },

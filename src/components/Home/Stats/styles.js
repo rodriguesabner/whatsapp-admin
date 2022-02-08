@@ -4,6 +4,7 @@ export const Layout = styled.div`
   display: flex;
   padding: 1em 0;
   width: 100%;
+  padding-top: 0;
 `;
 
 export const Container = styled.ul`

@@ -6,4 +6,9 @@ export default {
     Layout,
     WrapperMenu,
   },
+  methods: {
+    changeActiveButton() {
+      this.$store.commit('changeActiveButton');
+    },
+  },
 };

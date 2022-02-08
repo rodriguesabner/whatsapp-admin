@@ -2,7 +2,7 @@
   <layout>
     <wrapper-menu>
       <li class="active">
-        <router-link to="/">
+        <router-link to="/app">
           <iconly name="home" type="bulk"/>
           <span>
             Dashboard
@@ -11,7 +11,7 @@
       </li>
 
       <li>
-        <router-link to="/contacts">
+        <router-link to="/app/contacts">
           <iconly name="profile" type="bulk"/>
           <span>
           Contacts
@@ -20,7 +20,7 @@
       </li>
 
       <li>
-        <router-link to="/chat">
+        <router-link to="/app/chat">
           <iconly name="chat" type="bulk"/>
           <span>
             Chat
@@ -29,7 +29,7 @@
       </li>
 
       <li>
-        <router-link to="/">
+        <router-link to="/app/">
           <iconly name="setting" type="bulk"/>
           <span>
             Settings

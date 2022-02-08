@@ -8,7 +8,7 @@ export const Layout = styled.div`
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 2em;
+  padding: 0 2em;
 `;
 
 export const ContactsList = styled.ul`
@@ -25,7 +25,7 @@ export const ContactItem = styled.li`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-width: 200px;
+  width: 200px;
   min-height: 100px;
   padding: 1.5em 10px;
   margin: 10px;

@@ -7,7 +7,7 @@ export const Layout = styled.div`
 
 export const Container = styled.div`
   display: flex;
-  padding: 2em;
+  padding: 0 2em;
 `;
 
 export const ContactsContainer = styled.div`
