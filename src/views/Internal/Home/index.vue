@@ -1,15 +1,15 @@
 <template>
   <layout>
-    <container>
-      <stats/>
-      <instances/>
+    <dropdown>
+      <h1>
+        teste
+      </h1>
+    </dropdown>
 
-      <wrapper-containers>
-        <left-container>
-        </left-container>
-        <right-container>
-        </right-container>
-      </wrapper-containers>
+    <container>
+      <instances/>
+      <stats/>
+      <mobile-pair/>
     </container>
   </layout>
 </template>

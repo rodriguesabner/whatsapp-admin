@@ -10,6 +10,8 @@
   "dependencies": {
     "axios": "^0.25.0",
     "core-js": "^3.6.5",
+    "portal-vue": "^2.1.7",
+    "qrcode.vue": "^1.7.0",
     "release-it": "^14.12.4",
     "vue": "^2.6.11",
     "vue-iconly": "^1.0.2",

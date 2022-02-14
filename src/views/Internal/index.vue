@@ -17,11 +17,18 @@
   display: flex;
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 
 #layout__internal_column {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+  display: block;
+  width: calc(100% - 320px);
+  overflow: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  #layout__internal_column{
+    width: calc(100% - 100px);
+  }
 }
 </style>
