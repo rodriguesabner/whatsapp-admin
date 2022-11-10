@@ -1,8 +1,11 @@
 <template>
   <layout>
     <container>
+      <p style="margin-bottom: 10px; color: #666">
+        WPPConnect Admin
+      </p>
       <h1>
-        Entre em sua conta
+        Faça o login para acessar a plataforma
       </h1>
 
       <formulario>
@@ -12,7 +15,7 @@
         <input placeholder="admin@wppconnect.com"/>
 
         <label>
-          Senha
+          Digite aqui sua sneha
         </label>
         <input placeholder="12345" type="password"/>
 

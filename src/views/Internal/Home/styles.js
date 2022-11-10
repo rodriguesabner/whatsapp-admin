@@ -5,6 +5,8 @@ export const Layout = styled.div`
   flex-direction: column;
   width: 100%;
   position: relative;
+  overflow: auto;
+  padding-bottom: 3em;
 `;
 
 export const Container = styled.div`
@@ -16,6 +18,7 @@ export const Container = styled.div`
 
 export const WrapperContainers = styled.div`
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   width: 100%;
 `;

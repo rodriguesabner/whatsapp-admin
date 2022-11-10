@@ -3,8 +3,10 @@ import styled from 'vue-styled-components';
 export const Layout = styled.header`
   display: flex;
   align-items: center;
-  height: 120px;
+  height: 68px;
   width: 100%;
+  background: #121212;
+  border-bottom: 1px solid #838383;
 `;
 
 export const Wrapper = styled.div`
@@ -17,11 +19,9 @@ export const Wrapper = styled.div`
 `;
 
 export const LeftContainer = styled.div`
-  background: #212529;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 80%;
   padding: 10px 2em;
   border-radius: 10px;
 
@@ -34,13 +34,13 @@ export const LeftContainer = styled.div`
     border-right: 1px solid rgba(0, 0, 0, .3);
     font-size: 16px;
 
-    ::placeholder{
+    ::placeholder {
       color: #ccc;
     }
   }
 
   svg {
-    color: #777;
+    color: #505050;
 
     :last-child {
       cursor: pointer;
@@ -54,10 +54,7 @@ export const RightContainer = styled.ul`
   list-style-type: none;
 
   li {
-    background: #212529;
     border-radius: 50%;
-    width: 45px;
-    height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,8 +62,26 @@ export const RightContainer = styled.ul`
     margin-left: 1em;
     cursor: pointer;
 
+    :nth-child(3) {
+      margin-left: 0;
+    }
+
     svg {
-      color: #eee;
+      color: #505050;
+    }
+
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 10px;
     }
   }
+`;
+
+export const SeparatorComponent = styled.div`
+  width: 1px;
+  height: 48px;
+  background: #303030;
+  margin: 0 1em;
 `;

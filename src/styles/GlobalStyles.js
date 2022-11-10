@@ -5,7 +5,7 @@ export const Layout = styled.div`
   height: 100%;
   display: block;
   flex-direction: column;
-  background: #1a1d21;
+  background: #0D0D0D;
   overflow: auto;
   color: #fff;
 `;
@@ -26,7 +26,7 @@ export default injectGlobal`
   }
 
   body {
-    background: #1a1d21;
+    background: #0D0D0D;
     -webkit-font-smoothing: antialiased !important;
     font-family: 'Roboto', sans-serif;
   }

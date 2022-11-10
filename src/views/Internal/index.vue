@@ -1,8 +1,8 @@
 <template>
-  <div id="layout__internal_main">
-    <sidebar/>
-    <div id="layout__internal_column">
-      <header-component/>
+  <div id="layout__internal_column">
+    <header-component/>
+    <div id="layout__internal_main">
+      <sidebar/>
       <slot>
         <router-view/>
       </slot>
@@ -15,19 +15,18 @@
 <style>
 #layout__internal_main {
   display: flex;
-  height: 100%;
+  height: calc(100vh - 68px);
   width: 100%;
   overflow: hidden;
 }
 
 #layout__internal_column {
   display: block;
-  width: calc(100% - 320px);
-  overflow: auto;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1024px) {
-  #layout__internal_column{
+  #layout__internal_column {
     width: calc(100% - 100px);
   }
 }

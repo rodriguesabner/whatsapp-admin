@@ -2,26 +2,25 @@
   <layout>
     <wrapper>
       <left-container>
-        <iconly name="search" set="bulk"/>
-        <input placeholder="Search contact, chat, etc..."/>
-        <iconly name="filter" set="bulk"/>
+        <iconly name="search" type="broken"/>
       </left-container>
 
       <right-container>
-        <li class="active">
-          <iconly name="message" set="bulk"/>
+        <li>
+          <img src="https://github.com/rodriguesabner.png" alt="Abner"/>
+          <p>
+            Abner
+          </p>
+        </li>
+
+        <separator-component />
+
+        <li>
+          <iconly name="notification" type="broken"/>
         </li>
 
         <li>
-          <iconly name="activity" set="bulk"/>
-        </li>
-
-        <li>
-          <iconly name="notification" set="bulk"/>
-        </li>
-
-        <li>
-          <iconly name="profile" set="bulk"/>
+          <iconly name="logout" type="broken"/>
         </li>
       </right-container>
     </wrapper>

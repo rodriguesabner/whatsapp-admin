@@ -1,5 +1,5 @@
 import {
-  Layout, LeftContainer, RightContainer, Wrapper,
+  Layout, LeftContainer, RightContainer, SeparatorComponent, Wrapper,
 } from './styles';
 
 export default {
@@ -7,7 +7,8 @@ export default {
   components: {
     Layout,
     Wrapper,
-    RightContainer,
     LeftContainer,
+    RightContainer,
+    SeparatorComponent,
   },
 };

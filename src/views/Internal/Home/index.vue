@@ -7,9 +7,12 @@
     </dropdown>
 
     <container>
-      <instances/>
       <stats/>
-      <mobile-pair/>
+      <instances/>
+      <wrapper-containers style="margin-top: 2em">
+        <last-messages/>
+        <send-message-shortcut/>
+      </wrapper-containers>
     </container>
   </layout>
 </template>

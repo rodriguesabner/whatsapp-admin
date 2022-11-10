@@ -27,12 +27,13 @@ export const Container = styled.ul`
     vertical-align: middle;
     border-radius: 4px;
     cursor: pointer;
-    background: #212529;
+    background: #121212;
     padding: 20px;
     margin-right: 1em;
     height: 200px;
     width: 200px;
     overflow: hidden;
+    border-bottom: 2px solid #0EBE4F;
 
     .wrapper__session {
       display: flex;

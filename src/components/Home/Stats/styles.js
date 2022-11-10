@@ -2,12 +2,13 @@ import styled from 'vue-styled-components';
 
 export const Layout = styled.div`
   display: flex;
+  flex-direction: column;
   padding: 1em 0;
   width: 100%;
   padding-top: 2em;
 `;
 
-export const Container = styled.ul`
+export const TopContent = styled.ul`
   display: flex;
   justify-content: space-between;
   list-style-type: none;
@@ -18,10 +19,9 @@ export const Container = styled.ul`
     padding: 3em 2em;
     margin: 10px;
     border-radius: 4px;
-    cursor: pointer;
     transition-duration: 300ms;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
-    background: #212529;
+    background: #121212;
 
     p {
       color: #ddd;
@@ -30,11 +30,6 @@ export const Container = styled.ul`
     h2 {
       margin-top: 10px;
       color: #fff;
-    }
-
-    :hover {
-      box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-      background: #0f44fd;
     }
 
     :first-child {

@@ -20,7 +20,7 @@ export const ContactsList = styled.ul`
 `;
 
 export const ContactItem = styled.li`
-  background-color: #212529;
+  background-color: #121212;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,7 +45,7 @@ export const ContactItem = styled.li`
   }
 
   :hover {
-    background-color: #16191c;
+    background-color: #212121;
     transform: scale(1.1);
   }
 `;

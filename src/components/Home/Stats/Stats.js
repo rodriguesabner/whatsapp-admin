@@ -1,9 +1,9 @@
-import { Container, Layout } from './styles';
+import { Layout, TopContent } from './styles';
 
 export default {
   name: 'Stats',
   components: {
     Layout,
-    Container,
+    TopContent,
   },
 };

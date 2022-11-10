@@ -1,19 +1,22 @@
 import Dropdown from '@/components/Dropdown/Dropdown';
+import Stats from '@/components/Home/Stats/index.vue';
+import Instances from '@/components/Home/Instances/index.vue';
+import LastMessages from '@/components/Home/LastMessages/index.vue';
+import SendMessageShortcut from '@/components/Home/SendMessageShortcut/index.vue';
 import {
-  Container, Layout,
+  Container, Layout, WrapperContainers,
 } from './styles';
-import Stats from '../../../components/Home/Stats/index.vue';
-import Instances from '../../../components/Home/Instances/index.vue';
-import MobilePair from '../../../components/Home/MobilePair/index.vue';
 
 export default {
   name: 'Home',
   components: {
+    Stats,
+    Instances,
+    LastMessages,
+    SendMessageShortcut,
     Layout,
     Container,
     Dropdown,
-    Stats,
-    Instances,
-    MobilePair,
+    WrapperContainers,
   },
 };
